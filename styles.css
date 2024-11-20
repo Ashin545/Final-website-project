@@ -1,0 +1,380 @@
+body{
+    font-family: "Space Grotesk", sans-serif;
+    padding-top: 130px;
+    margin: 0px;
+    
+}
+
+h1,h2,h3,h4{
+    font-family: "Space Grotesk", sans-serif;
+    color:#ff5003;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}
+
+.orange-clr{
+    color:#ff5003;
+}
+
+/*Navbar Customisation */
+nav.navbar {
+    background: #000;
+    padding: 20px 0px;
+}
+
+nav .navbar-nav a.nav-link.active{
+    color:#ff5003;
+}
+
+nav .navbar-nav a.nav-link{
+    color:#ffffff;
+}
+
+
+
+
+a.navbar-brand img{
+    width: 200px;
+}
+
+
+nav li a.nav-link{
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+nav li a.nav-link:hover{
+    color: #ff5003 ;
+}
+
+
+
+ .btn, .nav-link.orange-btn {
+    background-color: #ff5003;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Lifting effect on hover */
+nav button:hover, .btn:hover, .nav-link.orange-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); 
+}
+
+/* Pressing effect on active */
+nav button:active, .btn:active, .nav-link.orange-btn:active {
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5003' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff5003' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+#event-list{
+    padding: 70px 0px;
+    background: #000;
+    color: #fff;
+}
+
+
+/* Add hover effect for cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for movement and shadow */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Move card upwards by 10px */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for emphasis */
+}
+
+.card-title
+{
+    font-weight: 600;
+    color: #000;
+}
+
+/*Events Page Customisation */
+#Events-upcoming{
+    padding: 70px 0px;
+    background: #000;
+    color: #fff;
+}
+
+
+/*About Page Customisation */
+#About{
+    padding: 70px 0px;
+    background: #000;
+    color: #fff;
+}
+
+
+#About p{
+    color: #fff;
+}
+
+#About ul{
+    padding: 0px;
+}
+#About ul li{
+    color: #fff;
+    list-style: none;
+    margin: 2px 0px;
+}
+
+#About img{
+    border-radius:5px ;
+}
+
+#About i{
+    color: #ff5003;
+    margin: 0px 5px;
+}
+
+
+
+/*Contact Customisation */
+
+#Contact{
+    padding: 70px 0px;
+    background: #000;
+    color: #fff;
+}
+
+#Contact ul{
+    padding: 0px;
+}
+
+#Contact ul li{
+    list-style: none;
+    margin: 30px 0px;
+    color: #fff;
+}
+
+
+#Contact i{
+    margin: 0px 10px;
+}
+
+/* Custom Submit Button */
+.btn-submit {
+    background-color: #ff5003; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+/* Hover effect for the button */
+.btn-submit:hover {
+    background-color: #e24600; 
+}
+
+
+
+/*footer Customisation */
+
+footer{
+    background: url(./media/footer-bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.overlay{
+    padding: 30px 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+    z-index: 1;
+}
+
+
+
+footer img{
+    width: 40%;
+}
+
+footer ul li a, footer li,footer p{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: #e24600;
+}
+
+footer ul{
+    padding: 0px;
+    list-style: none;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+footer h3{
+    font-size: 25px;
+}
+
+footer span.Copyright{
+    font-size: 14px;   
+    color: #fff;
+}
+
+
+
+/*Modal*/
+.get-ticket label{
+    color: #fff;
+}
+
+.get-ticket .modal-header{
+    border: none;
+    
+}
+
+.get-ticket h5{
+    text-align: center;
+    color: #fff;
+}
+.modal-content{
+    background: none;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+.btn-close {
+    background-color: white; 
+    border: 1px solid #ddd;  
+    opacity: 1; 
+}
+
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+    body{
+        font-family: "Space Grotesk", sans-serif;
+        padding-top: 70px;
+        margin: 0px;
+        
+    }
+
+    #event-list, #About, #Contact, #Events-upcoming{
+        padding: 30px 0px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .overlay {
+      padding: 30px 0px;
+  
+    }
+
+    nav.navbar{
+        padding: 0px;
+    }
+
+    a.navbar-brand img{
+        width: 150px;
+    }
+    nav li a.nav-link{
+        margin: 0px;
+    }
+
+    .nav-link.orange-btn{
+        width: fit-content;
+        padding: 8px 12px;
+    }
+
+    .img-fluid{
+        height: 100%;
+    }
+
+    .card-body{
+        padding: 10px 15px;
+    }
+
+    #About img{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    footer h3{
+        font-size: 20px;
+    }
+
+    footer img{
+        width: 90%;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    h1{
+        font-size: 25px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    .orange-clr{
+        color:#ff5003;
+        font-weight: 700;
+        display: block;
+    }
+
+    #event-list h5{
+        font-weight: 18px ;
+    }
+    
+    footer img{
+        width: 50%;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+    footer span.Copyright{
+        font-size: 12px;   
+    }
+}
